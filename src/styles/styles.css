@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .toolbar button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal {
+    padding: 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .modal h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
